@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- This are the attributes that in <TextView tags very important because every dialog that you want to create first you must
+    to create a title for your dialog.This attributes are rule for specific title dialog.-->
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog title"
+        android:paddingBottom="20dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="24dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#990000"/>
+
+    <TextView
+        android:id="@+id/txtContext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Context of the Dialog"
+        android:paddingBottom="24dp"
+        android:paddingRight="24dp"
+        android:paddingLeft="24dp"/>
+
+    <!--We crete a button in this dialog.This attributes are defined accordining to rules set.
+    Notice that we always create strings(text etc..) define in the strings.xml file.) -->
+
+    <!-- Now Let's go to the MainActivity.class and we will write some code for this buttons to run the
+    when you press this.-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:gravity="center_vertical|end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:minWidth="64dp"
+            android:minHeight="36dp"
+            android:text="@string/btn_accept_name"
+            android:layout_marginRight="8dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="10sp"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:minWidth="64dp"
+            android:minHeight="36dp"
+            android:text="@string/btn_cancel_name"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="10sp"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:minWidth="64dp"
+            android:minHeight="36dp"
+            android:text="@string/btn_delete_name"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="10sp"/>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

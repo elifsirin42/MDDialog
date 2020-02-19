@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MDDialog</string>
+    <string name="btn_accept_name">ACCEPT</string>
+    <string name="btn_cancel_name">CANCEL</string>
+    <string name="btn_delete_name">DELETE</string>
+</resources>
